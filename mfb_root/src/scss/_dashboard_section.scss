@@ -1,0 +1,52 @@
+.wrapper_project_listing {
+  background-color: red;
+  height: 100%;
+  margin-top: 100px;
+  margin-right: 30%;
+  position: relative;
+  .actions_bar {
+    background-color: blue;
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    height: 40px;
+  }
+  .wrapper_project_table {
+    background-color: blueviolet;
+    position: relative;
+    overflow: auto;
+    top: 60px;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.project_listing_row_parent {
+  position: relative;
+  width: 50%;
+}
+
+.project_listing_name_column {
+  position: absolute;
+  width: 30%;
+}
+.project_listing_status_column {
+  position: relative;
+  width: 10%;
+}
+.project_listing_ips_column {
+  position: relative;
+  width: 10%;
+}
+.project_listing_urls_column {
+  position: relative;
+  width: 10%;
+}
+.project_listing_lastUpdated_column {
+  position: relative;
+  width: 10%;
+}
+.project_listing_comments_column {
+  position: relative;
+  width: 10%;
+}

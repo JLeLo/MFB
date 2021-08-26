@@ -1,0 +1,45 @@
+@import "./colors";
+@import "./global_topbar";
+@import "./dashboard_section";
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: "Lucida Sans", sans-serif;
+}
+
+body {
+    height: 100%;
+    background-color: #fff;
+    overflow: hidden;
+    overflow-x: auto;
+}
+
+.app {
+    height: 100%;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.global_main_contents_container {
+    background-color: #ccc;
+    height: 100vh;
+    margin-bottom: 0;
+    .data {
+        color: white;
+        display: none;
+        background: #222629;
+        height: 100vh;
+        margin-bottom: 0;
+    }
+}
+
+.parent_div {
+    position: relative;
+}
+
+.child_div {
+    position: absolute;
+}

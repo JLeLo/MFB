@@ -1,0 +1,40 @@
+.global_topbar_container {
+  height: 30px;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 50px;
+  flex: 0 0 50px;
+  background: $mfb_dark3;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+
+  .global_topbar {
+    position: relative;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    display: flex;
+
+    a.MFB_logo {
+      height: 100%;
+      padding: 4px 15px 7px 15px;
+      text-decoration: none;
+      color: white;
+    }
+
+    a.MFB_logo:hover {
+      color: $mfb_light1;
+    }
+  }
+
+  .MFB_dropdown_container {
+    position: relative;
+    padding: 5px;
+    bottom: 3px;
+  }
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="http://127.0.0.1:3000/static/images/favicon.ico"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="app">
+      <div style="height: 100%">
+        <div class="global_topbar_container">
+          <div class="global_topbar">
+            <a href="/" class="MFB_logo">
+              <i class="fas fa-bug fa-lg"></i>
+            </a>
+            <div class="MFB_dropdown_container">
+              <div class="MFB_dropdown_menu" style="width: 200px">
+                <select class="MFB_dropdown_list" id="MFB_dropdown_list_id">
+                  <option value="wrapper_dashboard">Dashboard</option>
+                  <option value="wrapper_mfb">MFB App</option>
+                  <option value="wrapper_kb">Knowledge Base</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="global_main_contents_container">
+          <div class="global_main_contents">
+            <div id="wrapper_dashboard" class="data">
+              <h1>This is Dashboard page</h1>
+
+              <div class="wrapper_project_listing">
+                <div class="actions_bar">Actions</div>
+                <div class="wrapper_project_table">
+                  <div id="project_listing_app"></div>
+                </div>
+              </div>
+            </div>
+            <div id="wrapper_mfb" class="data">
+              <h1>This is MFB page</h1>
+            </div>
+            <div id="wrapper_kb" class="data">
+              <h1>This is KNOWLEDGE BASE page</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="http://127.0.0.1:3000/main.js"></script>
+  </body>
+</html>
