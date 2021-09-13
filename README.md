@@ -1,3 +1,8 @@
+MFB (Methodogy designer for Bug Bounty - automation tool)
+- It is an automation tool.
+- This tool integrates 3rd party and open source tools and chaining these tools.
+- All data is stored in database.
+
 Note: Django secret key and Database setup is masked.
 You can refer https://github.com/JLeLo/Django-Snowpack-VueJS-starter to have some understanding of my lab setup.
 
